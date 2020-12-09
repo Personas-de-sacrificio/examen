@@ -1,3 +1,3 @@
 # examen
 
-### Falta arreglar el header, agregar texto y ajustarlo, cambiar tipografías, solucionar las citas, modificar gráfica, agregar la parte de la constitución, editar la primera imagen, agregar gráfico, etc.
+### Falta agregar texto y ajustarlo, solucionar las citas, agregar gráfico, arreglar la parte de salud, agregar la parte de la constitución. 
