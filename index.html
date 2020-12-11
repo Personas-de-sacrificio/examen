@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
      <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="style.css" rel="stylesheet">
 </head>  
 
@@ -16,17 +17,13 @@
 <!-- header -->
     <header id="titular">
         <div class="container">
-        	<div class="row h-25">
-        		<div class="col-10 mt-auto pb-5 mx-auto text-center">
-        		<h2 class="mb-5 mb-md-0">Conflictos socioambientales</h2>
-        		</div>
-        	</div>
-            <div class="row h-75">
-                <div class="col-10 mt-auto pb-5 mx-auto text-center">
-                    <h2 class="mb-5 mb-md-0">Quintero y Puchuncaví</h2>
-                    <br>
-                    <h1>Personas de sacrificio</h1>
-                    <h6 class="text-center py-3">Karla Mancini, Joaquín Olmedo, David Sánchez y Rosario Valdes</h6>
+            <div class="row h-100">
+                <div class="col-10 mt-auto pb-4 mx-auto text-center">
+                	<h4>CONFLICTOS SOCIOAMBIENTALES</h4>
+                	<br>
+                    <h1>Zonas de sacrificio</h1>
+                    <h2>Parque industrial Quintero y Puchuncaví</h2>
+                    <h5 class="text-center py-3">Karla Mancini, Joaquín Olmedo, David Sánchez y Rosario Valdes</h5>
                 </div>
             </div>
         </div>
@@ -38,7 +35,7 @@
             <div class="row justify-content-center">
                  <div class="col-md-6">
                                         
-                    <p class="lead">La alta concentración industrial en la zona ha generado un devastador escenario ambiental ocasionando síntomas negativos para la salud de los vecinos de dichos sectores. Las causas en su mayoría, han sido atribuidas a la presencia de gases tóxicos en el aire pero el problema es mucho más generalizado.</p>
+                    <p class="lead">La alta concentración industrial en las zonas costeras de la Región de Valparaíso, aledañas a las comunas de Quintero y Puchuncaví, ha generado un devastador escenario ambiental que afecta directamente la salud de los habitantes de tales comunas. Las causas en su mayoría, han sido atribuidas a la presencia de gases tóxicos en el aire pero el problema es mucho más generalizado.</p>
                     <br>
                     <p>El 23 de agosto de 2018 se decretaba alerta amarilla en la zona de Quintero y Puchuncaví. Una nube tóxica afectaba a aproximadamente 500 personas. La situación era reflejo de la negligencia del Estado por fiscalizar un área que hace más de 60 años se venía deteriorando.</p>
                 </div>
@@ -55,18 +52,29 @@
                     <p>En la actualidad, termoeléctricas, refinerías y terminales de gas componen el parque industrial de Quintero-Puchuncaví. A pesar de ser un área predilecta para la pesca, la agricultura y la ganadería, la bahía se ha convertido en el lugar perfecto para estas empresas. El plan regulador del área sumado a la falta de una estricta fiscalización permite la instalación de este tipo de proyectos.</p>
                     <br>
                 </div>
-
-                <div class="col-md-8">
-                    <h5 class="text-center">"Eso causó los primeros movimientos, porque ya había noción de que las fundiciones generaban daños ambientales. La zona de Quintero y Puchuncaví tenía destino pesquero, agrícola y turístico, entonces había mucha preocupación", relata Hernán Ramírez, ingeniero en pesca y dirigente ambientalista de la zona.</h4>
-                </div>
-
             </div>
         </div>
 <!-- mapa tamaño completo-->       
-		<div>
-            <img src="svg/mapa.svg" class="img-fluid" />   
-        </div>
+		<div class="mapa">
+            <img src="svg/mapa.svg" class="img-fluid" />
 
+        </div>
+        
+<!-- mapa tamaño completo-->
+		<div class="container py-6">
+            <div class="row justify-content-center">
+                <div class="col-md-8 cita">
+                    <div class="code code--wider code--right aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+						<blockquote class="blockquote">
+						<br>					
+						<p class="blockquote">"[La llegada de las industrias] causó los primeros movimientos, porque ya había noción de que las fundiciones generaban daños ambientales. La zona de Quintero y Puchuncaví tenía destino pesquero, agrícola y turístico, entonces había mucha preocupación"</p>
+						<footer class="blockquote-footer"> Hernán Ramírez, ingeniero en pesca y dirigente ambientalista <cite title="Source Title">La Tercera</cite></footer>
+						<br>
+						</blockquote>
+					</div>
+                </div>  
+            </div>
+        </div>
 <!--Impactos medioambiente-->
         <div class="container py-4">
             <div class="row justify-content-center">
@@ -82,12 +90,11 @@
                 <div class="col-9">
                     <br>
                     <br>       
-                    <img src="svg/impacto.svg"  class="rounded mx-auto d-block" class="img-fluid" />
+                    <img src="svg/impacto.svg" class="img-fluid" />
                 </div>
 
                 <div class="col-md-6">
                 	<br>
-                    <br>
                     <h3>Emisiones tóxicas</h3>
                     <p>MP10: Material particulado de diámetro menor a 10 μm<br>
                     MP2,5: Material particulado de diámetro menor a 2,5 μm<br> 
@@ -96,9 +103,20 @@
                     </p>
                 </div>
                 
-                <div class="col-md-8">
+                <div class="col-md-8 cita">
                     <br>
-                    <h5 class="text-center">“Estamos molestos, porque está claro que el primer objetivo del Gobierno ha sido mantener el parque industrial por sobre la vida y salud. Acá lo político ha pesado mucho más que lo humano y lo ético” - vocera el Cabildo Abierto de Quintero-Puchuncaví”, Carolina Orellana</h4>
+                    <div class="code code--wider code--right aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+						<blockquote class="blockquote">
+						<br>
+						<br>
+						<br>
+						<p class="blockquote">“Estamos molestos, porque está claro que el primer objetivo del Gobierno ha sido mantener el parque industrial por sobre la vida y salud. Acá lo político ha pesado mucho más que lo humano y lo ético”</p>
+						<footer class="blockquote-footer"> Carolina Orellana, vocera el Cabildo Abierto de Quintero-Puchuncaví <cite title="Source Title">La Tercera</cite></footer>
+						<br>
+						<br>
+						<br>
+						</blockquote>
+					</div>
                 </div>
 
             </div>
@@ -108,17 +126,27 @@
         <div class="container py-4">
             <div class="row justify-content-center">
                 <div class="col-md-6">    
-                    <h2 class="text-center">Evolución calidad del aire</h2>   
+                    <h2 class="text-center">Evolución calidad del aire</h2> 
+                    <br>  
                 </div>
 
-                <div class="col-10">
+                <div class="col-12">
                     <br>
                     <img src="svg/episodios.svg" class="rounded mx-auto d-block" class="img-fluid" /> 
                 </div>
 
-                <div class="col-md-8">
+                <div class="col-md-8 cita">
                     <br>
-                    <h5 class="text-center">"Nos molestan e indignan los numerosos y frecuentes eventos de escape de gases que han puesto en riesgo a nuestros niños y todos los que habitamos Quintero y Puchuncaví, desde hace muchos años, y especialmente en estos 8 meses del año en curso, en que hemos sufrido 25 varamientos de carbón, 26 peack de SO2, 2 derrames de petróleo y ahora esta gravísima intoxicación masiva de menores de edad". - comunicado, las organizaciones sociales de la comuna de Quintero y Puchuncaví</h4>
+                    <div class="code code--wider code--right aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+						<blockquote class="blockquote">
+						<br>
+						<p class="blockquote">"Nos molestan e indignan los numerosos y frecuentes eventos de escape de gases que han puesto en riesgo a nuestros niños y todos los que habitamos Quintero y Puchuncaví, desde hace muchos años, y especialmente en estos 8 meses del año en curso, en que hemos sufrido 25 varamientos de carbón, 26 peak de SO2, 2 derrames de petróleo y ahora esta gravísima intoxicación masiva de menores de edad"</p>
+						<footer class="blockquote-footer"> Comunicado organizaciones sociales de la comuna de Quintero y Puchuncaví</footer>
+						<br>
+						<br>
+						
+						</blockquote>
+					</div>
                 </div>
                     
             </div>
@@ -132,10 +160,10 @@
                         <br>
                     </div>
                 </div>
-            
+            	<section class="page-section" id="services">
                 <div class="row"> 
                     <div class="col-6">
-                        <div class="sticky-top"style="z-index:-10;">
+                        <div class="sticky-top"style="z-index:-20;">
                             <img src="img/persona1.png" id="cerca" class="person esconder">
                             <img src="img/persona2.png" id="lejos" class="person esconder">
                             <img src="img/persona3.png" id="muylejos" class="person esconder">
@@ -144,43 +172,160 @@
                     <div class="col-6 col-xs-8" style="position:relative;">
                         <div class="container">
                         
-                            <div class="row" style="padding-top:450px;">
-                                <h4>Lorem ipsum</h4>
-                                <p class="text-muted col-md-6 col-xs-8">Lorem ipsum dolor sit amet consectetur adipiscing elit, ornare quisque dapibus iaculis himenaeos litora primis velit, ultricies a tristique sollicitudin sed ut.</p>
+                            <div class="row" style="padding-top:300px;">
+                                <h4>MPx</h4>
+                                <p class="opacidad col-md-10 col-xs-8"><mark class="pulmones">Pulmonar</mark>:  Inflamación bronquial, esto tiene como consecuencia el desarrollo de infecciones respiratorias bajas (neumonía, bronquitis) y crisis obstructivas.
+								La exposición crónica a material particulado tiene un efecto en el aumento de la mortalidad por cáncer broncopulmonar.<br>
+								<mark class="corazon">Cardiovascular</mark>: Causa una contracción de las arterias lo cual puede provocar obstrucción por un coágulo y el consiguiente infarto cerebrovascular o del miocardio circulatorio.</p>
                             </div>
                         
-                            <div class="row" style="padding-top:900px;">
-                                <h4>Lorem ipsum</h4>
-                                <p class="text-muted col-md-6 col-xs-8">Lorem ipsum dolor sit amet consectetur adipiscing elit, ornare quisque dapibus iaculis himenaeos litora primis velit, ultricies a tristique sollicitudin sed ut.</p>
+                            <div class="row" style="padding-top:600px;">
+                                <h4>SOx</h4>
+                                <p class="opacidad col-md-10 col-xs-8"><mark class="pulmones">Pulmonar</mark>: Aumenta la frecuencia cardíaca, disminuye el volumen respiratorio y aumenta la frecuencia respiratoria puede llegar a obstaculizar la respiración.</p>
                             </div>
                         
-                            <div class="row" style="padding-top:900px;margin-bottom:450px;">
-                                <h4>Lorem ipsum</h4>
-                                <p class="text-muted col-md-6 col-xs-8">Lorem ipsum dolor sit amet consectetur adipiscing elit, ornare quisque dapibus iaculis himenaeos litora primis velit, ultricies a tristique sollicitudin sed ut.</p>
+                            <div class="row" style="padding-top:600px;margin-bottom:300px;">
+                                <h4>NOx</h4>
+                                <p class="opacidad col-md-10 col-xs-8"><mark class="cabeza">Cabeza</mark> y <mark class="pulmones">pulmones</mark>: Dificultan el transporte de oxígeno a los pulmones, afectando también el sistema nervioso central y el riñón.<br>
+								<mark class="estomago">Estómago</mark>: Causa una inflamación intestinal intensa, afectando principalmente el colon y causando diarrea y vómitos.<br>
+								<mark class="embarazo">Embarazos</mark>: Posibles deformaciones y mutaciones, además de generar enfermedades respiratorias.<br>
+								<mark class="cuerpo">Cuerpo completo</mark>: Es un carcinógeno para diversos órganos y en especial causa leucemia. </p>
                             </div>
                         </div> 
                     </div>   
                 </div>
+            </section>
             </div>
 
 <!-- Conexión salud - social -->                    
             <div class="container py-4">
                 <div class="row justify-content-center">
-                    <div class="col-md-8">
+                    <div class="col-md-8 cita">
                         <br>
-                        <h5 class="text-center">“Nos evacuaron por un aire tóxico, y eso es el colmo porque perdemos nuestros derechos de estudiar, el derecho de los profesores de enseñarnos, de los trabajadores que pierden su trabajo por no estar ahí, por irse a sus casas por el aire sucio, cochino, que nos están tirando las empresas. Tengan conciencia de nosotros, somos el futuro”, escolar de Quintero.</h4>
+                        <div class="code code--wider code--right aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+							<blockquote class="blockquote">
+							<br>
+							<br>
+							<br>
+							<p class="blockquote">“Nos evacuaron por un aire tóxico, y eso es el colmo porque perdemos nuestros derechos de estudiar, el derecho de los profesores de enseñarnos, de los trabajadores que pierden su trabajo por no estar ahí, por irse a sus casas por el aire sucio, cochino, que nos están tirando las empresas. Tengan conciencia de nosotros, somos el futuro”</p>
+							<footer class="blockquote-footer"> Escolar comuna de Quintero <cite title="Source Title">CNN</cite></footer>
+							<br>
+							<br>
+							<br>
+							</blockquote>
+						</div>
                     </div>  
                 </div>
             </div>
 
 <!-- constitución-->
+ 			 
+
             <div class="container py-4">
                 <div class="row justify-content-center">
-
-
+                	<h2 class="text-center">Desafíos para una nueva Constitución</h2>
+                </div>   
+            </div>
+            <div class="row justify-content-center">
+            <div class="col-2 consti">
+         
+                    <img src="img/consti.png" class="img-fluid center" />
+                    <br>
+                    <br>
                 </div>
             </div>
+                <div class="container">
+                    <div class="row desafios">
+                        <div class="col-10 mx-auto">
+                            <!--primero o segundo, según convenga (si cambias el orden, procura cambiar todo entre <ul> hasta </ul>, incluyéndolos-->
+                            <ul class="nav nav-pills my-3 justify-content-center" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-primero-tab" data-toggle="pill" href="#pills-primero" role="tab" aria-controls="pills-primero" aria-selected="true">1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-segundo-tab" data-toggle="pill" href="#pills-segundo" role="tab" aria-controls="pills-segundo" aria-selected="false">2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-tercero-tab" data-toggle="pill" href="#pills-tercero" role="tab" aria-controls="pills-tercero" aria-selected="false">3</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-cuarto-tab" data-toggle="pill" href="#pills-cuarto" role="tab" aria-controls="pills-cuarto" aria-selected="false">4</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-quinto-tab" data-toggle="pill" href="#pills-quinto" role="tab" aria-controls="pills-quinto" aria-selected="false">5</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-sexto-tab" data-toggle="pill" href="#pills-sexto" role="tab" aria-controls="pills-sexto" aria-selected="false">6</a>
+                                </li>
+                            </ul>
+                            <!--primero o segundo, según convenga (si cambias el orden, procura cambiar todo desde el <div> en línea 51 hasta el </div> en línea 73, incluyéndolos-->
+                            <div class="tab-content mb-5" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-primero" role="tabpanel" aria-labelledby="pills-primero-tab">
+                                	<br>
+                                    <h2>El primer panel</h2>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, porta ridiculus et interdum auctor mus tortor nostra, varius malesuada consequat vivamus egestas sodales. Libero elementum rutrum sodales massa feugiat netus iaculis felis cum dignissim, velit nec turpis fames ad et suscipit donec bibendum euismod lobortis, lacus mi sagittis tellus convallis sociosqu pellentesque fermentum accumsan.
+                                    </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title"> Fuente: Ezio Costa director de FIMA, y Liliana Galdámez, profesora e investigadora de derecho de la Universidad de Chile.</cite></footer>
+                                </div>
+                                <div class="tab-pane fade" id="pills-segundo" role="tabpanel" aria-labelledby="pills-segundo-tab">
+                                	<br>
+                                    <h2>El segundo panel</h2>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, porta ridiculus et interdum auctor mus tortor nostra, varius malesuada consequat vivamus egestas sodales. Libero elementum rutrum sodales massa feugiat netus iaculis felis cum dignissim, velit nec turpis fames ad et suscipit donec bibendum euismod lobortis, lacus mi sagittis tellus convallis sociosqu pellentesque fermentum accumsan.
+                                    </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title"> Fuente: Ezio Costa director de FIMA, y Liliana Galdámez, profesora e investigadora de derecho de la Universidad de Chile.</cite></footer>
+                                </div>
+                                <div class="tab-pane fade" id="pills-tercero" role="tabpanel" aria-labelledby="pills-tercero-tab">
+                                	<br>
+                                    <h2>Visión medioambiental</h2>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        Incluir al Medio Ambiente en los primeros artículos de la Constitución aseguraría que el Estado de Chile <br>tuviese una visión medioambiental, ya que, la protección de la naturaleza se entendería mejor, <br>y tendría un alcance más amplio y significativo. 
+                                    </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title"> Fuente: Ezio Costa director de FIMA, y Liliana Galdámez, profesora e investigadora de derecho de la Universidad de Chile.</cite></footer>
 
+                                </div>
+                                <div class="tab-pane fade" id="pills-cuarto" role="tabpanel" aria-labelledby="pills-cuarto-tab">
+                                	<br>
+                                    <h2>Propiedad de los bienes comunes</h2>
+                                    <br>
+                                    <br>
+                                    <p>
+                                       	Modificar la jerarquía en la propiedad de los bienes descritos en la Constitución por una en la que <br>el derecho del bien común sea más importante que el derecho a la propiedad privada aseguraría <br>que los ecosistemas en Chile se siguieran respetando independientemente de lo que ocurra alrededor, <br>teniendo un manejo sostenible y un enfoque en la preservación. 
+                                    </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title"> Fuente: Ezio Costa director de FIMA, y Liliana Galdámez, profesora e investigadora de derecho de la Universidad de Chile.</cite></footer>
+                                </div>
+                                <div class="tab-pane fade" id="pills-quinto" role="tabpanel" aria-labelledby="pills-quinto-tab">
+                                	<br>
+                                    <h2>El quinto panel</h2>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, porta ridiculus et interdum auctor mus tortor nostra, varius malesuada consequat vivamus egestas sodales. Libero elementum rutrum sodales massa feugiat netus iaculis felis cum dignissim, velit nec turpis fames ad et suscipit donec bibendum euismod lobortis, lacus mi sagittis tellus convallis sociosqu pellentesque fermentum accumsan.
+                                    </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title"> Fuente: Ezio Costa director de FIMA, y Liliana Galdámez, profesora e investigadora de derecho de la Universidad de Chile.</cite></footer>
+                                </div>
+                                <div class="tab-pane fade" id="pills-sexto" role="tabpanel" aria-labelledby="pills-sexto-tab">
+                                	<br>
+                                    <h2>El sexto panel</h2>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, porta ridiculus et interdum auctor mus tortor nostra, varius malesuada consequat vivamus egestas sodales. Libero elementum rutrum sodales massa feugiat netus iaculis felis cum dignissim, velit nec turpis fames ad et suscipit donec bibendum euismod lobortis, lacus mi sagittis tellus convallis sociosqu pellentesque fermentum accumsan.
+                                    </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title"> Fuente: Ezio Costa director de FIMA, y Liliana Galdámez, profesora e investigadora de derecho de la Universidad de Chile.</cite></footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
     </main>
 <!--pie de pagina-->
     <footer>
@@ -199,22 +344,43 @@
 <script>
 $(window).scroll(function () {
 var scroll = $(window).scrollTop();
-if (scroll >= 2501 && scroll <= 3300) {
+if (scroll >= 7301 && scroll <= 8000) {
 $("#cerca").addClass("esconder");
 $("#lejos").addClass("esconder");
 $("#muylejos").removeClass("esconder");
 }
-if (scroll >= 1501 && scroll <= 2500) {
+if (scroll >= 6601 && scroll <= 7300) {
 $("#cerca").addClass("esconder");
 $("#lejos").removeClass("esconder");
 $("#muylejos").addClass("esconder");
 } 
-if (scroll>= 100 && scroll<= 1500) {
+if (scroll>= 5600 && scroll<= 6600) {
 $("#cerca").removeClass("esconder");
 $("#lejos").addClass("esconder");
 $("#muylejos").addClass("esconder");
 }
 });
 </script>
+<!--Código citas-->
+<script src="dist/aos.js"></script>
+    <script>
+      document.querySelector('html').classList.remove('no-js');
+      if (!window.Cypress) {
+        const scrollCounter = document.querySelector('.js-scroll-counter');
+
+        AOS.init({
+          mirror: true
+        });
+
+        document.addEventListener('aos:in', function(e) {
+          console.log('in!', e.detail);
+        });
+
+        window.addEventListener('scroll', function() {
+          scrollCounter.innerHTML = window.pageYOffset;
+        });
+      }
+    </script>
+
 </body>
 </html>

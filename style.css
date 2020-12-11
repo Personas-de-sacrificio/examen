@@ -23,51 +23,81 @@ header#titular {
 header#titular div.container {
                 height: 100vh;
             }
-
 header#titular h1 {
-                color:rgba(255,255,255,1); 
+                color:rgba(255,255,255,1);
+                font-size: 2.4rem;
             }
-
 header#titular h2 {
-                color:rgba(255,255,255,0.8);
+                color:rgba(255,255,255,1); 
+                font-size: 1.6rem;
+            }
+header#titular h4 {
+                color:rgba(255,255,255,0.7); 
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+header#titular h5 {
+                color:rgba(255,255,255,0.7);
+                font-size: 1rem;
             }
 h1 {
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
-    font-size: 3rem;
-}
-
-
-h2 {
     font-family: 'Merriweather', serif;
     font-weight: 900;
     font-size: 1.2rem;
 }
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.2rem;
 }
 h4 {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 1.2rem;
 }
 h5{
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-    font-size: 1rem;
-}
-h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
+h6{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.blockquote {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
 
+}
 .person{
-    width: 100%;
-    height: auto;
+    width: 45%;
+    height:auto;
+    margin-left:70px
+}
+.cita{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.mapa{
+    margin-bottom: 100px;
+}
+.consti{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.desafios{
+    margin-bottom: 100px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;  
 }
 p.lead {
     font-family: 'Merriweather', serif;
@@ -75,16 +105,21 @@ p.lead {
     font-size: 18px;
     color:rgba(255,255,255,0.8);
 }
+p.opacidad{
+    color:rgba(255,255,255,0.8);
+    font-weight: 300;
+}
 .esconder{
     display:none;
 }
 @media (max-width: 700px) {
+
     p.lead {
         text-align: center;
     }
     .person{
-        width: 200%;
-        top: 20px;
+        width: 100%;
+        top: 65px;
         margin-left:-50px;
     }
 }
@@ -92,6 +127,58 @@ p.lead {
 img {
     vertical-align: middle;
     border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
+ul.nav-pills li.nav-item a.nav-link {
+                border-radius: 50% 50%;
+                color:rgba(255,255,255,0.8);
 
-
+            }
+.tab-pane {
+                min-height: 50vh;
+                text-align: center;
+                padding: 2.5rem;
+            }
+.tab-pane:nth-child(1) {
+                background: rgb(23, 86, 118, 0.4);
+            }
+.tab-pane:nth-child(2) {
+                background: rgb(23, 86, 118, 0.4);
+            }
+.tab-pane:nth-child(3) {
+                background: rgb(23, 86, 118, 0.4);
+            }
+.tab-pane:nth-child(4) {
+                background: rgb(23, 86, 118, 0.4)
+            }
+.tab-pane:nth-child(5) {
+                background: rgb(23, 86, 118, 0.4)
+            }
+.tab-pane:nth-child(6) {
+                background: rgb(23, 86, 118, 0.4)
+            }
+mark.pulmones{
+    background-color:#175676;
+    color: white;
+}
+mark.estomago{
+    background-color:#6B141D;
+    color: white;
+}
+mark.cabeza{
+    background-color: #575757;
+    color: white;
+}
+mark.cuerpo{
+    background-color: #D62839;
+    color: white;
+}
+mark.embarazo{
+    background-color: #FFAD33;
+    color: white;
+}
+mark.corazon{
+    background-color: #D62839;
+    color: white;
+}
